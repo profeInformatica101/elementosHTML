@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla sobre la Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            width: 70%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        caption {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Introducción a la Web</h1>
+    <table>
+        <caption>Conceptos básicos de la Web</caption>
+        <thead>
+            <tr>
+                <th>Término</th>
+                <th>Definición</th>
+                <th>Ejemplo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>Lenguaje de marcado para crear la estructura de las páginas web.</td>
+                <td><code>&lt;h1&gt;Título&lt;/h1&gt;</code></td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Lenguaje para diseñar y estilizar las páginas web.</td>
+                <td><code>color: red;</code></td>
+            </tr>
+            <tr>
+                <td>URL</td>
+                <td>Dirección de una página web en Internet.</td>
+                <td>https://www.ejemplo.com</td>
+            </tr>
+            <tr>
+                <td>HTTP</td>
+                <td>Protocolo de transferencia de hipertexto para la comunicación en la web.</td>
+                <td>http://</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
